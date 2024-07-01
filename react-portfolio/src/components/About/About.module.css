@@ -1,0 +1,85 @@
+@import "src/vars.css";
+
+.container 
+{
+    position: relative;
+
+
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    background-color: var(--color-darker);
+    border-radius: 10px;
+    padding: 30px 30px;
+    
+}
+
+.title
+{
+    color: var(--color-text);
+    
+}
+
+.content 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.aboutImg
+{
+    width: 40%;
+    z-index: 1;
+}
+
+li
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+li:hover
+{
+    background-color: white;
+}
+
+.roles
+{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.desc
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    
+
+}
+
+@media screen and (max-width: 830px)
+{
+    .container
+    {
+        background-color: rgba(100,0,0,0);
+
+    }
+
+    .aboutImg
+    {
+        display: none;
+    }
+}
