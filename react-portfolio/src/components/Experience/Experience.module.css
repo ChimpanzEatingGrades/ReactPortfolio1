@@ -1,0 +1,162 @@
+@import "../../vars.css";
+
+.container
+{
+    color: var(--color-text);
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title
+{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills
+{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.skill
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.skillImageContainer
+{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 10px var(--color-secondary);
+    transition: box-shadow 1s;
+}
+
+.skillImageContainer:hover
+{
+    box-shadow: 0px 0px 30px var(--color-secondary);
+}
+
+.sik
+{
+    width: 65px;
+}
+
+.skill p
+{
+    font-size: 25px;
+    font-family: var(--font-robot);
+    font-weight: 500;
+    
+}
+
+.history
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 17px;
+    background-image: var(--color-secondary);
+    background-image: var(--color-blueGradient);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.historyItem:hover h3
+{
+    text-shadow: 0px 0px 5px var(--color-plain);
+}
+
+.historyItem img
+{
+    width: 50px;
+}
+
+.historyItemText
+{
+    
+    font-size: 50px;
+}
+
+.historyItemText h3
+{
+    font-size: 30px;
+    font-family: var(--font-robot);
+    font-weight: 100;
+    text-shadow: 0px 0px 2px var(--color-plain);
+    margin: 10px;
+    transition: text-shadow .5s;
+}
+
+.historyItemText p
+{
+    font-family: var(--font-robot);
+    font-size: 15px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.historyItemText ul
+{
+    font-family: var(--font-robot);
+    margin-top: 6px;
+    list-style-position: inside;
+    margin-left: 17px;
+    font-size: 23px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+@media screen and (max-width: 830px) 
+{
+
+    .content
+    {
+        flex-direction: column;
+        align-items: center;
+        gap:34px;
+    }
+
+    .skills
+    {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history
+    {
+        width: 100%;
+        gap: 9px;
+    }
+    
+}

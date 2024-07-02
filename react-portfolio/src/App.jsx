@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import styles from './App.module.css'
-import { Navbar } from './components/Navbar/Navbar.js/Navbar'
-import { Hero } from './components/Navbar/Navbar.js/Hero/Hero' 
+import { Navbar } from './components/Navbar/Navbar'
+import { Hero } from './components/Hero/Hero' 
 import { About } from './components/About/About.jsx' 
+import { Experience } from './components/Experience/Experience' 
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
     </div>
   )
 }
+
 
 export default App

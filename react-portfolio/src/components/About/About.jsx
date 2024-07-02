@@ -4,7 +4,7 @@ import styles from "./About.module.css"
 
 export const About = () =>
 {
-    return <section className={styles.container}>
+    return <section id = "about" className={styles.container}>
 
             <h1 className={styles.title}>
                 ABOUT ME
@@ -18,37 +18,38 @@ export const About = () =>
 
 
             <ul className={styles.roles}>
-                <li>
+                <li className={styles.aboutLi} >
                     <img src={getImageUrl("about/cursorIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
-                    <h3 className={styles.roles}>
+                    <h3>
                         Student
                     </h3>
-                    <p className={styles.desc}>
+        
+                    <p>
                     A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
                     </p> 
                     </div>   
                 </li>
 
-                <li>
+                <li className={styles.aboutLi}>
                 <img src={getImageUrl("about/serverIcon.png")} className={styles.aboutImg1} alt="My picture" />
-                    <div className={styles.text}>
-                    <h3 className={styles.roles}>
+                    <div>
+                    <h3>
                         Student
                     </h3>
-                    <p className={styles.desc}>
+                    <p>
                     A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
                     </p>  
                     </div>  
                 </li>
 
-                <li>
+                <li className={styles.aboutLi}>
                 <img src={getImageUrl("about/uiIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
-                    <h3 className={styles.roles}>
+                    <h3>
                         Student
                     </h3>
-                    <p className={styles.desc}>
+                    <p >
                     A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
                     </p>  
                     </div>  

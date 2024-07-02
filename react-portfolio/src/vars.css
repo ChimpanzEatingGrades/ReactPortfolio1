@@ -7,6 +7,11 @@
     --color-dark: #0b2447;
     --color-darker: #07101d;
     --color-bg: #04152d;
+    --color-lightGradient: linear-gradient(90deg, rgba(165, 215, 235, 0.45) 0%, rgba(255, 255, 255, 0) 100%);
+    --color-lightGradientOFF: rgba(165, 215, 235, 0.45);
+    --color-lightGradientOFF1: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(165, 215, 235, 0.45) 100%);
+    --color-blueGradient: linear-gradient(90deg, var(--color-secondary) 0%, rgba(25, 55, 110, 0) 100%);
+    --color-plain: rgba(255, 255, 255, 1);
 
     --color-topBlur: rgba(25, 55, 110, 0.7);
 
