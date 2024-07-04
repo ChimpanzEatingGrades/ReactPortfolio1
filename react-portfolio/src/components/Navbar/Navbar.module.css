@@ -1,4 +1,4 @@
-@import "src/vars.css";
+@import "../../vars.css";
 
 .navbar
 {
@@ -8,26 +8,41 @@
     justify-content: space-between;
     padding-top: 61px;
     z-index: 2;
-    margin: 0 10%;
+    margin: 0 5%;
 }
+
 
 .title 
 {
-    font-size: 30px;
+    /*font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-text);*/
+
+    width: 135px;
+    cursor: help;
+
+    vertical-align: middle;
+
+
 }
+
+
 
 .menu
 {
     display: flex;
 }
 
+.menuBtn
+{
+    display: none;
+}
+
 .menuItems
 {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
 }
 
@@ -36,10 +51,26 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+    background-color: none;
+    padding: 15px;
+    transition-duration: .5s;
+    
+}
+
+.menuItems a:hover
+{
+    background-color: var(--color-bg-dim);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px var(--color-plain);
 }
 
 @media screen and (max-width: 830px)
 {
+    .title
+    {
+        width: 120px;
+    }
+    
     .navbar
     {
         flex-direction: column;

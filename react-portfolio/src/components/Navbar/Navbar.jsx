@@ -3,10 +3,12 @@ import React, {useState} from "react";
 import styles from "./Navbar.module.css"
 import {getImageUrl} from "/src/utils.js"
 
+
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false); 
     return <nav className={styles.navbar}>
-        <a className={styles.title} href="/">DE</a>
+        
+        <a href="/"><img className={styles.title}  src={getImageUrl("nav/arrowLogo.svg")} alt="DE"/></a>
         <div className={styles.menu}>
             <img className={styles.menuBtn} 
             src={

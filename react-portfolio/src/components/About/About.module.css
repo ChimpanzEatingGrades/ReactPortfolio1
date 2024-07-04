@@ -8,12 +8,13 @@
 
     margin-top: 350px;
     z-index: 1;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
 
     background-color: var(--color-darker);
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
+    box-shadow: 0px 0px 30px var(--color-secondary);
 
     
     
@@ -47,7 +48,7 @@
 
 .aboutImg1
 {
-    width: 30%;
+    width: 20%;
     margin: 3%;
 
 }
@@ -153,7 +154,7 @@
 
 .aboutLi h3
 {
-    font-size: 2.5vw;
+    font-size: 35px;
     font-weight: 600;
     line-height: 30px;
 }
@@ -161,7 +162,7 @@
 .aboutLi p 
 {
     margin-top: 5%;
-    font-size: 2vw
+    font-size: 20px;
 }
 
 
@@ -178,6 +179,23 @@
         display: none;
     }
 
+    .aboutLi h3
+    {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .aboutLi p 
+    {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    .title
+    {
+        font-size: 4vw;
+    }
 
 
 }

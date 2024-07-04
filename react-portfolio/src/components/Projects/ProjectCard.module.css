@@ -1,0 +1,97 @@
+@import "../../vars.css";
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background: blue;
+    padding: 18px 24px;
+    max-width: 345px;
+    border-radius: 12px;
+    background: var(--color-blueGradientDown);
+    box-shadow:  0px 0px 10px var(--color-secondary);
+    transition-duration: 1s;
+    
+}
+
+.container:hover
+{
+    box-shadow:  0px 0px 30px var(--color-secondary);
+}
+
+.image 
+{
+    margin-bottom: 26px;
+}
+
+.title 
+{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.description
+{
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.skills 
+{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    
+}
+
+.skill 
+{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+    transition-duration: .5s;
+    outline: 1px var(--color-primary);
+    outline-style: solid;
+    
+}
+
+.skill:hover
+{
+    background: var(--color-secondary);
+    
+}
+
+.links 
+{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link 
+{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 100;
+    border-radius: 6px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+    transition-duration: 1s;
+}
+
+.link:hover
+{
+    background: var(--color-secondary);
+    text-shadow: 0px 0px 3px var(--color-text);
+}
