@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 10vw;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -29,8 +29,8 @@
     margin-bottom: 33px;
     font-family: var(--font-robot);
     background: linear-gradient(90deg, 
-              rgba(255, 255, 255, 1) 70%, 
-              rgba(255, 255, 255, 0) 120%);
+              var(--color-plain) 30%, 
+              var(--color-hotPink) 80%);
               -webkit-text-fill-color: transparent;
               -webkit-background-clip: text;
 }
@@ -42,9 +42,70 @@
     margin-bottom: 52px;
 
     z-index: 1 ;
+ 
+}
 
+.description a
+{
+    text-decoration: none;
+    color: var(--color-text);
+    transition-duration: .5s;
+}
 
+.description a:hover
+{
+    text-shadow: 0px 0px 3px var(--color-hotPink);
+}
+
+.inter1
+{
+    background: linear-gradient(90deg, 
+              var(--color-primary) 30%, 
+              var(--color-hotPink) 80%);
+              -webkit-text-fill-color: transparent;
+              -webkit-background-clip: text;
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    transition: background 0.8s;
+    cursor: pointer;
+}
+
+.inter1:hover
+{
+    background-size: 0% 100%;
+}
+
+.aboutLi
+{
     
+ 
+    background-image: var(--color-lightGradient);
+    border-radius: 15px;
+    margin: 3vw;
+    z-index:1;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background 0.8s;
+   
+
+}
+
+.aboutLi:hover
+{
+    background-size: 100% 100%;
+}
+
+.glow1
+{
+    text-shadow: 0px 0px 8px var(--color-primary);
+    color: var(--color-primary);
+    text-decoration: wavy;
+    transition-duration: .5s;
+}
+
+.glow1:hover
+{
+    text-shadow: 0px 0px 12px var(--color-hotPink);
 }
 
 .contactBtn
