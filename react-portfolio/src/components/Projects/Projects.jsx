@@ -1,6 +1,7 @@
 import projects from "../../data/projects.json";
 import styles from "./Projects.module.css";
 
+
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () =>
@@ -14,7 +15,9 @@ export const Projects = () =>
                 {
                     projects.map((project, id) => {
                         return(
+                            
                             <ProjectCard key={id} project={project} />
+                            
                         )
                     })
                 }

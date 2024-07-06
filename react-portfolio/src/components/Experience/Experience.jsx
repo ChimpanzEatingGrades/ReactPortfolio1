@@ -2,6 +2,7 @@ import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+import { Tilt } from '@jdion/tilt-react';
 
 export const Experience = () => {
     return (
@@ -18,15 +19,19 @@ export const Experience = () => {
                         skills.map((skill, id) => {
                             return( 
                             
+                            
                             <div key={id} className={styles.skill}>
 
+                                <Tilt>
                                 <div className={styles.skillImageContainer}><img className={styles.sik} src={getImageUrl(skill.imageSrc)} alt={skill.title} /></div>
-
+                                </Tilt>
+                                
                                 <p>
                                     {skill.title}
                                 </p>
                             
                             </div>
+                            
 
                         )})
                     }

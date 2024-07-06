@@ -1,6 +1,7 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
-import styles from "./About.module.css"
+import styles from "./About.module.css";
+import { Tilt } from '@jdion/tilt-react';
 
 export const About = () =>
 {
@@ -11,13 +12,11 @@ export const About = () =>
             </h1>
 
         <div className={styles.content}>
-            
-            
-
-            <img src={getImageUrl("about/aboutImage.png")} className={styles.aboutImg} alt="My picture" />
-
+   
+            <img className={styles.aboutImg} src={getImageUrl("hero/walkingStraight1.gif")}  alt="My picture" />
 
             <ul className={styles.roles}>
+                <Tilt>
                 <li className={styles.aboutLi} >
                     <img src={getImageUrl("about/cursorIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
@@ -30,7 +29,9 @@ export const About = () =>
                     </p> 
                     </div>   
                 </li>
+                </Tilt>
 
+                <Tilt>
                 <li className={styles.aboutLi}>
                 <img src={getImageUrl("about/serverIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div>
@@ -42,7 +43,9 @@ export const About = () =>
                     </p>  
                     </div>  
                 </li>
+                </Tilt>
 
+                <Tilt>
                 <li className={styles.aboutLi}>
                 <img src={getImageUrl("about/uiIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
@@ -54,7 +57,7 @@ export const About = () =>
                     </p>  
                     </div>  
                 </li>
-
+                </Tilt>
             </ul>
             
         </div>

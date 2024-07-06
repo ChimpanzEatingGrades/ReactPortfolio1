@@ -41,7 +41,7 @@ export const Particles1 = (props) => {
           value: colors.myRed,
         },
       },
-      fpsLimit: 20,
+      fpsLimit: 45,
       interactivity: {
         events: {
           onClick: {
@@ -75,7 +75,7 @@ export const Particles1 = (props) => {
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: "up",
           enable: true,
           outModes: {
             default: "bounce",
@@ -88,7 +88,7 @@ export const Particles1 = (props) => {
           density: {
             enable: true,
           },
-          value: 100,
+          value: 150,
         },
         opacity: {
           value: 1.0,

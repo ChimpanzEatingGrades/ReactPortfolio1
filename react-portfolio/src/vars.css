@@ -15,6 +15,7 @@
     --color-blueGradientDown: linear-gradient(180deg, var(--color-secondary) 0%, rgba(25, 55, 110, 0) 100%);
     --color-plain: rgba(255, 255, 255, 1);
     --color-hotPink: #db2ec4;
+    --color-lightBlue: #a6b8ff;
 
     --color-topBlur: rgba(25, 55, 110, 0.7);
 

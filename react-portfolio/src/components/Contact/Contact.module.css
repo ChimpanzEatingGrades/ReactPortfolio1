@@ -35,6 +35,7 @@
     align-items: flex-start;
     list-style: none;
     gap: 26px;
+    margin-left: 80px;
 }
 
 .link
@@ -60,6 +61,12 @@
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.contactImg
+{
+    height: 200px;
+    margin: 0px;
 }
 
 @media screen and (max-width: 830px) 

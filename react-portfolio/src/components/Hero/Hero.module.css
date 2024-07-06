@@ -4,9 +4,10 @@
 {
     position: relative;
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
-    margin-top: 10vw;
+    margin-top: 8vw;
+    align-items: center;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -24,15 +25,53 @@
 
 .title
 {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-robot);
     background: linear-gradient(90deg, 
               var(--color-plain) 30%, 
+              var(--color-hotPink) 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    transition: background 0.8s;
+}
+
+.title:hover
+{
+    background-size: 100% 100%;
+}
+
+.name1
+{
+    
+    transition-duration: 2s;
+}
+
+.name1:hover
+{
+    text-shadow: 0px 0px 6px var(--color-primary);
+}
+
+.inter1
+{
+    background: linear-gradient(90deg, 
+              var(--color-primary) 30%, 
               var(--color-hotPink) 80%);
-              -webkit-text-fill-color: transparent;
-              -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    transition: background 0.8s;
+    font-family: var(--text-robot);
+   
+}
+
+.inter1:hover
+{
+    background-size: 0% 100%;
 }
 
 .description
@@ -49,6 +88,7 @@
 {
     text-decoration: none;
     color: var(--color-text);
+    font-family: var(--font-robot);
     transition-duration: .5s;
 }
 
@@ -57,43 +97,7 @@
     text-shadow: 0px 0px 3px var(--color-hotPink);
 }
 
-.inter1
-{
-    background: linear-gradient(90deg, 
-              var(--color-primary) 30%, 
-              var(--color-hotPink) 80%);
-              -webkit-text-fill-color: transparent;
-              -webkit-background-clip: text;
-    background-size: 150% 100%;
-    background-repeat: no-repeat;
-    transition: background 0.8s;
-    cursor: pointer;
-}
 
-.inter1:hover
-{
-    background-size: 0% 100%;
-}
-
-.aboutLi
-{
-    
- 
-    background-image: var(--color-lightGradient);
-    border-radius: 15px;
-    margin: 3vw;
-    z-index:1;
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: background 0.8s;
-   
-
-}
-
-.aboutLi:hover
-{
-    background-size: 100% 100%;
-}
 
 .glow1
 {
@@ -101,6 +105,7 @@
     color: var(--color-primary);
     text-decoration: wavy;
     transition-duration: .5s;
+    font-family: var(--text-robot);
 }
 
 .glow1:hover
@@ -108,7 +113,7 @@
     text-shadow: 0px 0px 12px var(--color-hotPink);
 }
 
-.contactBtn
+.heroBtn
 {
     text-decoration: none;
     background-color: var(--color-primary);
@@ -129,6 +134,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    flex-direction: column;
+    margin-top: 0%;
+    align-self: flex-start;
 
 }
 
@@ -221,5 +229,10 @@
     .content
     {
         align-items: center;
+    }
+
+    .heroImg
+    {
+        width: 70%;
     }
 }

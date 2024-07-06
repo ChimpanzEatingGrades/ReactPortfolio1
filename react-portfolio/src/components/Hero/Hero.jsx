@@ -2,14 +2,16 @@ import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css"
 import { useState } from "react";
+import { Tilt } from '@jdion/tilt-react';
+import { Button } from "./Button.jsx";
 
 
 
 export const Hero = () =>
 {
     
-    const word1 = "(click on me)";
-    const word2 = "interactivity";
+    const word2 = "(͠≖ ͜ʖ͠≖)";
+    const word1 = "interactivity";
     const [inter1, setInter1] = useState(word1);
 
     const lenny1 = () =>
@@ -23,16 +25,26 @@ export const Hero = () =>
         
         <div className={styles.content}>
             <h1 className={styles.title}>
-                Psst. I'm David Esfandiary,
+                Psst.<br/> I'm <span className={styles.name1} >David Esfandiary,</span>
             </h1>
             <p className={styles.description}>
-                a student and aspiring dev. I'm currently studying Computer Science at <a href="google.com">Ateneo de Davao University. </a>
-                If you can't already tell, I love <span onClick={lenny1} className={styles.inter1}>{inter1}</span> and <span className={styles.glow1}>glowy things</span>. Scroll to find out more!
+                a student and an aspiring dev. I'm currently studying Computer Science at <a href="google.com">Ateneo de Davao University. </a>
+                If you can't already tell, I love <span onMouseLeave={lenny1} className={styles.inter1}>{inter1}</span> and <span className={styles.glow1}>glowy things</span>. Scroll to find out more!
             </p>
 
-            <a href= "mailto:david.s.esfandiary@gmail.com" className={styles.contactBtn}>Email</a>
+            <Tilt>
+                <Button />
+            </Tilt>
+
+            
+
+
         </div>
-        <img src={getImageUrl("hero/walkingLeft.gif")} className={styles.heroImg} alt="My picture" />
+        <div className={styles.heroImg}> 
+        <Tilt>
+        <img src={getImageUrl("hero/walkingLeft.gif")}  alt="My picture" />
+        </Tilt>
+        </div> 
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
 

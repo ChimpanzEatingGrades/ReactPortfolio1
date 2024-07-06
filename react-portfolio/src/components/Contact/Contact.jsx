@@ -19,7 +19,7 @@ export const Contact = () =>
                 <li className={styles.link}>
                     <a href="mailto:david.s.esfandiary@gmail.com"><img src={getImageUrl("contact/linkedinIcon.png")} alt="Email me" /></a>
                     
-                    <a href="https://www.linkedin.com/in/david-esfandiary">linkedin.com/david-esfandiary</a>
+                    <a href="https://www.linkedin.com/in/david-esfandiary-791a60302/">linkedin.com/david-esfandiary</a>
                 </li>
                 <li className={styles.link}>
                     <a href="mailto:david.s.esfandiary@gmail.com"><img src={getImageUrl("contact/githubIcon.png")} alt="Email me" /></a>
@@ -28,7 +28,8 @@ export const Contact = () =>
                 </li>
             </ul>
             
+            <img className={styles.contactImg} src={getImageUrl("hero/walkingRight.gif")}  alt="My picture" />
 
-        </footer>
+        </footer> 
     );
 };
