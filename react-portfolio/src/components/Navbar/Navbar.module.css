@@ -38,7 +38,7 @@
     cursor: help;
 
     vertical-align: middle;
-    margin-left: 75px;
+    margin-left: 40%;
 
 
 }
@@ -109,7 +109,7 @@
     box-shadow: 0px 0px 8px var(--color-hotPink);
 }
 
-@media screen and (max-width: 830px)
+@media screen and (max-width: 1100px)
 {
     .title
     {
@@ -131,6 +131,11 @@
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+    }
+
+    .title
+    {
+        margin-left: 10%;
     }
 
     .menuBtn {
