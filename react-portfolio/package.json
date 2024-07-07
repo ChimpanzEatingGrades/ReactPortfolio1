@@ -15,10 +15,12 @@
     "@jdion/tilt-react": "^1.0.0",
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
+    "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fps-stats": "^0.3.1",
     "react-headroom": "^3.2.1",
+    "react-spinners": "^0.14.1",
     "stats.js": "^0.17.0"
   },
   "devDependencies": {

@@ -21,11 +21,11 @@ export const About = () =>
                     <img src={getImageUrl("about/cursorIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
                     <h3>
-                        Student
+                        Work
                     </h3>
         
                     <p>
-                    A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
+                    I have an interest in optimization and the interactive side of the User Experience.
                     </p> 
                     </div>   
                 </li>
@@ -36,10 +36,10 @@ export const About = () =>
                 <img src={getImageUrl("about/serverIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div>
                     <h3>
-                        Student
+                        Fun
                     </h3>
                     <p>
-                    A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
+                    In my free time I like to read, slingshot, and touch grass.
                     </p>  
                     </div>  
                 </li>
@@ -50,10 +50,10 @@ export const About = () =>
                 <img src={getImageUrl("about/uiIcon.png")} className={styles.aboutImg1} alt="My picture" />
                     <div className={styles.text}>
                     <h3>
-                        Student
+                        Background
                     </h3>
                     <p >
-                    A student and aspiring dev. I'm currently a Computer Science student at Ateneo de Davao University
+                    I live and study in Davao City.
                     </p>  
                     </div>  
                 </li>

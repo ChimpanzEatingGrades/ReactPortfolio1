@@ -137,7 +137,7 @@
     padding: 25px;
     background-image: var(--color-lightGradient);
     border-radius: 15px;
-    margin: 3vw;
+    margin: 15px;
     z-index:1;
     background-size: 0 100%;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@
 
 .aboutLi p 
 {
-    margin-top: 5%;
+    margin-top: 10px;
     font-size: 20px;
 }
 

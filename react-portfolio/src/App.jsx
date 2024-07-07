@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './App.module.css'
 import { Navbar } from './components/Navbar/Navbar'
 import { Hero } from './components/Hero/Hero' 
@@ -11,20 +11,49 @@ import { Particles2 } from './components/Particles/Particles2.jsx'
 import FPSStats from 'react-fps-stats'
 import { Tilt } from '@jdion/tilt-react'
 import Headroom from 'react-headroom'
+import { PreLoader } from './components/PreLoader/PreLoader'
+import RingLoader from "react-spinners/RingLoader"
+import * as colors from "./vars.module.scss";
 
 
 function App() {
 
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000)
+  }, []);
   
 
   return(
+    <>
+    
     <div id="home" className={styles.App}>
-      
       <Tilt>
       <FPSStats top="auto" left="auto" bottom="15px" right="15px"/>
       </Tilt>
 
       <div className={styles.particlesDiv}><Particles2 className={styles.particles}/></div>
+      {
+      loading ? 
+      <>
+      
+      <div className={styles.spinner}>
+      <RingLoader
+
+      color={colors.primary}
+      loading = {loading}
+      size={100}
+      />
+      </div>
+      </>
+      :
+
+      <>
+      
       
       
       <div className={styles.content1}>
@@ -43,9 +72,16 @@ function App() {
       <Projects /> 
       
       <Contact /></div>
+      </>
+      }
+      
     </div>
+
+    </>
   )
 }
 
 
 export default App
+
+
