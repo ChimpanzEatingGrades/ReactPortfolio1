@@ -25,7 +25,7 @@ export const Hero = () =>
         
         <div className={styles.content}>
             <h1 className={styles.title}>
-                Psst.<br/> I'm <span className={styles.name1} >David Esfandiary,</span>
+                Psst.<br/> I'm <span className={styles.name1} >Test Esfandiary,</span>
             </h1>
             <p className={styles.description}>
                 a student and an aspiring dev. I'm currently studying Computer Science at <a href="google.com">Ateneo de Davao University. </a>
