@@ -26,20 +26,28 @@ function App() {
       setLoading(false);
     }, 3000)
   }, []);
+
+  const [showFPS, setShowFPS] = useState(false);
+
+  function toggleFPS()
+  {
+    setShowFPS(!showFPS);
+    console.log("toggling FPS");
+  }
   
 
   return(
     <>
     
     <div id="home" className={styles.App}>
-      <Tilt>
-      <FPSStats top="auto" left="auto" bottom="15px" right="15px"/>
-      </Tilt>
+
+      
 
       <div className={styles.particlesDiv}><Particles2 className={styles.particles}/></div>
       {
       loading ? 
       <>
+      
       
       <div className={styles.spinner}>
       <RingLoader
@@ -54,8 +62,12 @@ function App() {
 
       <>
       
-      
-      
+      {
+      showFPS ?
+      <FPSStats top="auto" left="auto" bottom="15px" right="15px"/>
+      :
+      <></>
+      }
       <div className={styles.content1}>
       
       <Headroom style={{zIndex: 5}}>
@@ -63,7 +75,7 @@ function App() {
       </Headroom>
       
 
-      <Hero />
+      <Hero toggleFPS={toggleFPS}/>
       
       <About />
       

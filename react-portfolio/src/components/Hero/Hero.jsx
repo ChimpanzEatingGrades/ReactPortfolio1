@@ -7,7 +7,7 @@ import { Button } from "./Button.jsx";
 
 
 
-export const Hero = () =>
+export const Hero = (props) =>
 {
     
     const word2 = "(͠≖ ͜ʖ͠≖)";
@@ -20,6 +20,12 @@ export const Hero = () =>
             setInter1(word2);
         else setInter1(word1);
     }
+
+    function test1()
+  {
+ 
+    console.log("toggling FPS");
+  }
 
     return <section className={styles.container}>
         
@@ -40,9 +46,9 @@ export const Hero = () =>
 
 
         </div>
-        <div className={styles.heroImg}> 
+        <div className={styles.heroImg} data-anything="That tickles!"> 
         <Tilt>
-        <img src={getImageUrl("hero/walkingLeft.gif")}  alt="My picture" />
+        <img  className={styles.tickles} onClick={props.toggleFPS} src={getImageUrl("hero/walkingLeft.gif")} alt="My picture" />
         </Tilt>
         </div> 
         <div className={styles.topBlur} />

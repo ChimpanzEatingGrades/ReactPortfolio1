@@ -137,7 +137,23 @@
     flex-direction: column;
     margin-top: 0%;
     align-self: flex-start;
+    
 
+}
+
+
+
+.heroImg:hover:after
+{
+    position: absolute;
+    content: attr(data-anything);
+    display: inline-block;
+    left: 100px;
+    border-radius: 20px;
+    top: 0px;
+    padding: 5px;
+    background-color: white;
+    color: black;
 }
 
 @keyframes floatUp
