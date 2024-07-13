@@ -13,7 +13,9 @@ import { Tilt } from '@jdion/tilt-react'
 import Headroom from 'react-headroom'
 import { PreLoader } from './components/PreLoader/PreLoader'
 import RingLoader from "react-spinners/RingLoader"
-import * as colors from "./vars.module.scss";
+import * as colors from "./vars.module.scss"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { EnglishCalculator } from './EnglishCalculator.jsx'
 
 
 function App() {

@@ -20,6 +20,7 @@
     "react-dom": "^18.3.1",
     "react-fps-stats": "^0.3.1",
     "react-headroom": "^3.2.1",
+    "react-router-dom": "^6.24.1",
     "react-spinners": "^0.14.1",
     "stats.js": "^0.17.0"
   },

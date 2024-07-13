@@ -4,6 +4,12 @@ import { Tilt } from '@jdion/tilt-react';
 
 export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source}}) =>
 {
+    
+    function openDemo(demoLink)
+    {
+        window.open(demoLink, '_blank');
+    }
+    
     return(
         <Tilt>
         <div className={styles.container}>
@@ -17,10 +23,11 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
             </ul>
             <div className={styles.links}>
                 <Tilt>
-                <a className={styles.link} href={demo}>Demo</a>
+                <button className={styles.link} onClick = {() => openDemo(demo)} >Demo</button>
+                
                 </Tilt>
                 <Tilt>
-                <a className={styles.link} href={source}>Source</a>  
+                <a className={styles.link} target="_blank" href={source}>Source</a>  
                 </Tilt>
             </div>
         </div>

@@ -88,6 +88,8 @@
     background: var(--color-primary);
     padding: 1px 22px;
     transition-duration: 1s;
+    border: none;
+    cursor: pointer;
 }
 
 .link:hover
