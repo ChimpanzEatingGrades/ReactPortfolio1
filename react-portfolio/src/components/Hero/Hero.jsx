@@ -46,7 +46,7 @@ export const Hero = (props) =>
 
 
         </div>
-        <div className={styles.heroImg} data-anything="That tickles!"> 
+        <div className={styles.heroImg} data-anything="Click me!"> 
         <Tilt>
         <img  className={styles.tickles} onClick={props.toggleFPS} src={getImageUrl("hero/walkingLeft.gif")} alt="My picture" />
         </Tilt>
