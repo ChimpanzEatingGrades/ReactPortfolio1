@@ -4,7 +4,7 @@
       "imageSrc": "projects/SmartCal.gif",
       "description": "Calculator application utilizing Google's speech recognition library  in Python for hands-free arithmetic.",
       "skills": ["Python"],
-      "demo": "../../../public/SmartCal.mp4",
+      "demo": "/SmartCal.mp4",
       "source": "https://github.com/ChimpanzEatingGrades/EnglishCalculator"
     },
     {
@@ -20,7 +20,7 @@
       "imageSrc": "projects/productMS.png",
       "description": "Developed a full-stack product management system with a Java-based GUI (Swing) for the frontend and MySQL for the database backend. The system supports features such as user registration/verification, an automated restock alert system, order and supplier management, CRUD functions, product tracking, and inventory control. The application enables users to create accounts and interact with the product catalogue, make transactions, manage orders, and receive alerts when products need restocking.",
       "skills": ["Apache Ant", "Java Swing", "MySQL"],
-      "demo": "../../../public/ProductManagementSystem.mp4",
+      "demo": "/ProductManagementSystem.mp4",
       "source": "https://github.com/ChimpanzEatingGrades/ProductManagementSystem"
     }
   ]
