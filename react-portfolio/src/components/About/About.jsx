@@ -25,7 +25,7 @@ export const About = () =>
                     </h3>
         
                     <p>
-                    I have an interest in optimization and the interactive side of the User Experience.
+                    I have an interest in optimization and the interactive side of the User Experience. I've tried a lot of things - design, frontend, backend, game development, robotics.
                     </p> 
                     </div>   
                 </li>
@@ -39,7 +39,7 @@ export const About = () =>
                         Fun
                     </h3>
                     <p>
-                    In my free time I like to read, slingshot, and touch grass.
+                    In my free time I like to work on and drive my 1995 Mitsubishi Mighty Max, read novels, and slingshot.
                     </p>  
                     </div>  
                 </li>
@@ -53,7 +53,7 @@ export const About = () =>
                         Background
                     </h3>
                     <p >
-                    I live and study in Davao City.
+                    Currently, I live and study in Davao City. I moved here from Maryland in 2020.
                     </p>  
                     </div>  
                 </li>

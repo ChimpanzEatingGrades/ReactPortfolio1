@@ -1,11 +1,19 @@
 [
     {
-      "role": "Web Developer",
+      "role": "Web Developer, Site Configuration",
       "organisation": "PinoyKorner.com",
-      "startDate": "March, 2024",
+      "startDate": "March, 2023",
       "endDate": "Present",
       "experiences": ["Resolved hosting issues", "Assisted in DNS licensing", "Transitioned site from http to https"],
       "imageSrc": "history/PinoyKorner.png"
+    },
+    {
+      "role": "Computer Science Teacher",
+      "organisation": "Freelancer",
+      "startDate": "August, 2024",
+      "endDate": "Present",
+      "experiences": ["Taught elementary - middle school aged kids important Computer Science concepts", "Utilized MIT's Scratch for a fun learning experience", "Assisted students in developing games in scratch", "Used Google Meet to host tutoring sessions"],
+      "imageSrc": "history/scratch2.png"
     }
   ]
   
