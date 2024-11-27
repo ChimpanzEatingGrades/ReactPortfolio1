@@ -15,7 +15,7 @@ export const Button = () => {
    
     
 
-    <span ><a className={styles.text} href= "https://docs.google.com/document/d/1PDB2x5igHZCHfbYJ_KLl3ncPqZ7vghtf5GZTQ5BitGk/edit?usp=sharing" 
+    <span ><a className={styles.text} href= "https://bit.ly/EsfandiaryResume" 
                target="_blank">Resume</a></span>
 
 

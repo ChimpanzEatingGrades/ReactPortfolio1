@@ -4,7 +4,7 @@
       "organisation": "PinoyKorner.com",
       "startDate": "March, 2023",
       "endDate": "Present",
-      "experiences": ["Resolved hosting issues", "Assisted in DNS licensing", "Transitioned site from http to https"],
+      "experiences": ["Troubleshot and resolved various hosting issues affecting website performance", "Managed DNS records to ensure proper and secure routing of traffic and email services.", "Led the transition of the website from HTTP to HTTPS, ensuring encrypted traffic. This involved obtaining an SSL/TLS certificate, configuring the server, and updating site links to use the updated protocol. "],
       "imageSrc": "history/PinoyKorner.png"
     },
     {
@@ -12,7 +12,7 @@
       "organisation": "Freelancer",
       "startDate": "August, 2024",
       "endDate": "Present",
-      "experiences": ["Taught elementary - middle school aged kids important Computer Science concepts", "Utilized MIT's Scratch for a fun learning experience", "Assisted students in developing games in scratch", "Used Google Meet to host tutoring sessions"],
+      "experiences": ["Taught elementary and middle school-aged students the foundational concepts of Computer Science using MIT's Scratch.", "Developed age-appropriate and student-specific lesson plans and interactive activities to introduce students to core topics like algorithmic thinking, problem-solving, and computational logic. ", "Provided step-by-step assistance on how to design characters, build interactive elements, and implement game mechanics. ", "Hosted online tutoring sessions via Google Meet, using screen sharing and collaborative tools"],
       "imageSrc": "history/scratch2.png"
     }
   ]

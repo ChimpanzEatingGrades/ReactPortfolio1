@@ -1,2 +1,2 @@
 # David Esfandiary's portfolio. 
-#### Made with ReactJS and Vanilla CSS.
+#### Made with ReactJS and (mostly) Vanilla CSS.

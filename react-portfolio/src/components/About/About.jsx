@@ -39,7 +39,7 @@ export const About = () =>
                         Fun
                     </h3>
                     <p>
-                    In my free time I like to work on and drive my 1995 Mitsubishi Mighty Max, read novels, and slingshot.
+                    In my free time I like to work on and drive my 1995 Mitsubishi Mighty Max, practice BJJ, read novels and manga, play guitar, and slingshot.
                     </p>  
                     </div>  
                 </li>
@@ -53,7 +53,7 @@ export const About = () =>
                         Background
                     </h3>
                     <p >
-                    Currently, I live and study in Davao City. I moved here from Maryland in 2020.
+                    Currently, I live and study in Davao City. I moved here from Maryland, USA in 2020.
                     </p>  
                     </div>  
                 </li>
